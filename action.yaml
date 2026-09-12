@@ -1,6 +1,10 @@
 name: Generate Gherkin Report
 description: Extracts Gherkin-style comments from files and generates an HTML report
 
+branding:
+  icon: file-text
+  color: green
+
 inputs:
   input-files:
     description: Glob pattern(s) for input files (e.g., ./tests/*.tftest.hcl ./tests/*_test.go)
